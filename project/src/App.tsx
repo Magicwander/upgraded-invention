@@ -26,7 +26,7 @@ function App() {
           {
             name: 'Hello World',
             path: '/cpp-scripts/hello_world.cpp',
-            content: '#include <iostream>\n\nint main() {\n    std::cout << "Hello, World!" << std::endl;\n    return 0;\n}',
+            content: '',
             timeSpent: 1,
             difficulty: 'Beginner',
             category: 'Basics'
@@ -34,7 +34,7 @@ function App() {
           {
             name: 'Vectors',
             path: '/cpp-scripts/vectors.cpp',
-            content: `#include <iostream>\n#include <vector>\n\nint main() {\n    std::vector<int> numbers = {1, 2, 3, 4, 5};\n    numbers.push_back(6);\n    std::cout << "First element: " << numbers[0] << std::endl;\n    for(const auto& num : numbers) {\n        std::cout << num << " ";\n    }\n    return 0;\n}`,
+            content: ``,
             timeSpent: 1,
             difficulty: 'Beginner',
             category: 'Memory Management'
@@ -42,7 +42,7 @@ function App() {
           {
             name: 'Templates',
             path: '/cpp-scripts/templates.cpp',
-            content: 'template<typename T>\nT max(T a, T b) {\n    return (a > b) ? a : b;\n}',
+            content: '',
             timeSpent: 2,
             difficulty: 'Intermediate',
             category: 'Generic Programming'
